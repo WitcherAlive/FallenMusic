@@ -1,6 +1,6 @@
 <p align="center">
     <br><b></b><br>
-</p>
+</p> 🦋 Kyouko Music 🦋
 <p align="center"><a href="https://t.me/Moon_Light_XD"><img src="https://telegra.ph/file/9426c81c863412e36f4d6.jpg"></a></p>
 
 Kyouko Music is a Telegram Bot project that allows you to play music on Telegram through Telegram Voice Chat Feature</b><br>
