@@ -11,40 +11,37 @@ async def start_(client: Client, message: Message):
     await message.delete()
     await message.reply_sticker("CAACAgUAAxkBAAEENxZiNtPdibVkMsjLZrUG9NK4hotHQgAC2wEAAoM12VSdN9ujxVtnUyME")
     await message.reply_photo(
-        photo=f"{START_IMG}",
+        photo=f"https://telegra.ph/file/9426c81c863412e36f4d6.jpg",
         caption=f"""**━━━━━━━━━━━━━━━━━━
 💔 ʜᴇʏ {message.from_user.mention()} !
 
-        ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
+        ᴛʜɪs ɪs [Moonlight](t.me/Moon_Light_XD), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
 
 ᴀʟʟ ᴏꜰ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴍʏ ᴄᴏᴍᴍᴀɴᴅ ʜᴀɴᴅʟᴇʀs : ( `/ . • $ ^ ~ + * ?` )
-┏━━━━━━━━━━━━━━┓
-┣★
-┣★ ᴍᴀᴅᴇ ʙʏ: [𝝙𝗡𝗢𝗡𝗬𝗠𝗢𝗨𝗦](t.me/{me})
-┣★
-┗━━━━━━━━━━━━━━┛
 
-💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{me}) ʙᴀʙʏ...
+|| 🦋 ᴍᴀᴅᴇ ʙʏ: 𝐌𝐨𝐨𝐧𝐥𝐢𝐠𝐡𝐭 .....🖤🥀
+
+💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [Moonlight](t.me/Moon_Light_XD) Valentina...
 ━━━━━━━━━━━━━━━━━━**""",
     reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🥺 ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ 🥺", url=f"https://t.me/{bu}?startgroup=true"
+                        "🥺 𝐀𝐃𝐃 𝐌𝐄 𝐌𝐀𝐒𝐓𝐄𝐑​ 🥺", url=f"https://t.me/{bu}?startgroup=true"
                        ),
                   ],[
                     InlineKeyboardButton(
-                        "💔 ᴏᴡɴᴇʀ 💔", url=f"https://t.me/{me}"
+                        "💔 ᴏᴡɴᴇʀ 💔", url=f"https://t.me/Moon_light_XD"
                     ),
                     InlineKeyboardButton(
-                        "🍒 sᴜᴘᴘᴏʀᴛ 🍒", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🍒 sᴜᴘᴘᴏʀᴛ 🍒", url=f"https://t.me/+iPh_e-Clym41MjVl"
                     )
                 ],[
                     InlineKeyboardButton(
                         "🔎 ɪɴʟɪɴᴇ 🔎", switch_inline_query_current_chat=""
                     ),
                     InlineKeyboardButton(
-                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://github.com/AnonymousR1025/FallenMusic"
+                        "🤯 sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ 🤯", url="https://github.com/kyoukokaga/FallenMusic"
                     )]
             ]
        ),
